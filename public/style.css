@@ -2,16 +2,15 @@
   margin: 0;
 }
 
-
 .modal {
-    display: block;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.6);
+  display: block;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .hidden {
@@ -23,29 +22,29 @@
 }
 
 #create-resume-button:hover {
-    cursor: pointer;
-    background: lightblue;
+  cursor: pointer;
+  background: lightblue;
 }
 
 .modal-content {
-    background-color: #fefefe;
-    padding: 5px 10px;
-    width: 85%;
-    height: 90%;
-    margin: 2% auto;
-    overflow: scroll;
+  background-color: #fefefe;
+  padding: 5px 10px;
+  width: 85%;
+  height: 90%;
+  margin: 2% auto;
+  overflow: scroll;
 }
 
-.exit-button{
-    align: left;
-    height: 10%;
-
+.exit-button {
+  align: left;
+  height: 10%;
 }
 
-.exit-button:hover, .exit-button:focus{
-    cursor: pointer;
-    text-decoration: none;
-    color: red;
+.exit-button:hover,
+.exit-button:focus {
+  cursor: pointer;
+  text-decoration: none;
+  color: red;
 }
 
 .inner-modal {
@@ -65,12 +64,10 @@
   padding: 5px 0px 5px 0px;
   border-top: black 5px solid;
   border-bottom: black 5px solid;
-
 }
 
-
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
 }
 
@@ -119,7 +116,6 @@ body {
   width: 90%;
   background-color: lightgrey;
   height: 10px;
-
 }
 
 .text-box {
@@ -181,7 +177,6 @@ body {
   flex: 8 50px;
 }
 
-
 .error-container {
   height: 100%;
   width: 100%;
@@ -195,9 +190,8 @@ body {
 
 .text-10 {
   font-size: 10;
-
 }
-.text-12{
+.text-12 {
   font-size: 12;
 }
 
@@ -207,11 +201,9 @@ body {
 
 #helvetica {
   font-family: helvetica;
-
 }
 #arial {
   font-family: arial;
-
 }
 
 #timesNewRoman {
@@ -220,7 +212,6 @@ body {
 
 #times {
   font-family: Times;
-
 }
 
 .lightgrey {
@@ -240,7 +231,7 @@ body {
   align-content: center;
 }
 
-.display-flex{
+.display-flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
